@@ -192,3 +192,6 @@ gulp.task('build', ->
 gulp.task('default', ['build'], ->
 	runSequence(['watch'])
 )
+
+
+## http://yeoman.io/blog/performance-optimization.html | add gulp functions
